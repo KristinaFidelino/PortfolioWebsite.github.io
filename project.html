@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>ProjectSSS</title>
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images/Logo.png"></a>
+            <div class="nav-links"  id="navBar">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="skills.html">SKILLS</a></li>
+                    <li> <a href="#project">PROJECT</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="title">My Projects</h1>
+    </section>
+
+    <!--project content-->
+    
+
+    <!--project-->
+    <section id="course">
+        <div class="container text-center">
+            <div class="row text-center">
+                <div class="col-md-4 courses">
+                    <a href="eZ.html"> <img src="images/pro1.png" class="course-img" ></a>
+                    <h3>EZ Wallet</h3>
+                    <p>A type of pre-paid account in which a user can store their money and make online transactions.</p>
+                </div>
+
+                <div class="col-md-4 courses">
+                    <a href="idC.html"> <img src="images/pro2.png" class="course-img"></a>
+                    <h3> Identification Card</h3>
+                    <p>The identity card has two main features: first it can be used as a paying card and the second one is for Global Positioning System (GPS). </p>
+                </div>
+
+                <div class="col-md-4 courses">
+                    <a href="tD.html"> <img src="images/pro3.png" class="course-img" ></a>
+                    <h3>To Do Application</h3>
+                    <p>It will help you organize your schedules and workloads, set reminders, set important notes, keep on track of important projects, and lastly is to create a to do list.</p>
+                </div>
+
+
+
+            </div>
+            <button type="button" class="btn btn-primary">My Services</button>
+        </div>
+    </section>
+
+        <!-- form-->
+    <section>
+    <div class="message-box text-center">
+            <h3>How can I help you?</h3>
+        <div class="form-floating mb-3 text-center">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Full Name" required="required">
+            <label for="floatingInput">Full Name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="name@example.com" required="required">
+            <label for="floatingPassword">Email address</label>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" required="required"></textarea>
+            <label for="floatingTextarea">Your Message</label>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    
+     </div>
+
+    </section>
+
+
+
+<!-- footer in about-->
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Hey, There! I'm Kristina Fidelino, a 3rd Year College student taking a BS Computer Science at the Technological University of the Philippines - Manila. <br> I am an aspiring student who wants to become a Data Scientist and Web Developer after I graduate from college. <br> Now, I am still a student developing her skills and talent for web developing and creating an applications.</p>
+
+    <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100008370693683"><i class="fa fa-facebook"> </i></a>
+    <a href="https://twitter.com/mkjTina"><i class="fa fa-twitter"> </i></a>
+    <a href="https://www.instagram.com/kristinafidelino/"><i class="fa fa-instagram"></i></a>
+    </div>
+    <p>Created by Kristina Fidelino | Copyright &copy; 2021 All Rights Reserved</p>
+</section>
+
+
+
+
+
+
+    <!--Toggle Menu-->
+<script>
+    var navBar = document.getElementById("navBar");
+    function showMenu(){
+        navBar.style.right = "0";
+    }
+    function hideMenu(){
+        navBar.style.right = "-200px";
+    }
+</script>
+
+<!-- footer in about-->
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

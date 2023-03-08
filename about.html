@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images/Logo.png"></a>
+            <div class="nav-links"  id="navBar">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="#about">ABOUT</a></li>
+                    <li> <a href="skills.html">SKILLS</a></li>
+                    <li> <a href="project.html">PROJECT</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1 class="title">About Me</h1>
+    </section>
+
+<!-- about content-->
+<section class="aboutMe">
+    <div class="row">
+        <div class="aboutMe-col">
+            <h1>Aspiring  Data Scientist and Web Developer</h1>
+            <p>Hi! I'm Kristina Fidelino, A 22-year-old 4th Year College student taking a BS Computer Science at the Technological University of the Philippines - Manila. I live in Parañaque City. I designed this website I willtake you to my journey on how I will achieve my dreams and share with you my knowledge and inspirations to make things impossible be possible. <br> <span style="margin-left: 5%" >I am a young dreamer. I enjoy rainy days, watching the sun sets, and the touch of the cold ocean breeze. Be my guest and may your heart find what you want to be as I walk you through my own story.</span></p>
+
+            <a href="" class="hire abt-btn">Explore with Me</a>
+        </div>
+        <div class="aboutMe-col">
+            <img src="images/pic.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+<!--Toggle Menu-->
+<script>
+    var navBar = document.getElementById("navBar");
+    function showMenu(){
+        navBar.style.right = "0";
+    }
+    function hideMenu(){
+        navBar.style.right = "-200px";
+    }
+</script>
+
+<!-- footer in about-->
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Hey, There! I'm Kristina Fidelino, a 3rd Year College student taking a BS Computer Science at the Technological University of the Philippines - Manila. <br> I am an aspiring student who wants to become a Data Scientist and Web Developer after I graduate from college. <br> Now, I am still a student developing her skills and talent for web developing and creating an applications.</p>
+
+    <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100008370693683"><i class="fa fa-facebook"> </i></a>
+    <a href="https://twitter.com/mkjTina"><i class="fa fa-twitter"> </i></a>
+    <a href="https://www.instagram.com/kristinafidelino/"><i class="fa fa-instagram"></i></a>
+    </div>
+    <p>Created by Kristina Fidelino | Copyright &copy; 2021 All Rights Reserved</p>
+</section>
+
+
+</body>
+</html>
